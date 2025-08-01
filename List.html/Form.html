@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms in HTML</title>
+
+    </head>
+    <body>
+        <h2> Capatch Form</h2>
+        <label for="capatch">Enter the capatcha: </label>
+        <b><input type="text" id="capatch" name="capatch" placeholder="Enter the capatcha here"></b>
+        <br>
+        <br>
+        <label for = "email">email</label>
+        <input type = "email" id = "email" name = "email" placeholder = "Enter your email here">
+        <br>
+        <br>
+        <label for = "password">password *</label>
+        <input type = "password" id = "password" name = "password" required="Password must be in 8 characters" placeholder = "Enter your password here">
+        <br>
+        <br>
+        <label for = "age">Age:</label>
+        <input type = "number" id = "age" name = "age" placeholder = "Enter your age here">
+        <br>    
+        <br>
+        <label for = "date">Date of Birth:</label>
+        <input type = "date" id = "date" name = "date">
+        <br>
+        <br>
+        <lable for = "url">Enter LinkedIN URL:</lable>
+        <input type = "url" id = "url" name = "url" placeholder = "Enter your URL here">
+        <br>
+        <br>
+        <label>
+            <input type = "checkbox" name="HTML" value = "Option1">HTML
+        </label> 
+        <label>
+            <input type = "checkbox" name="css" value = "Option1">CSS
+        </label> 
+        <label>
+            <input type = "checkbox" name="js" value = "Option1">Java Script
+        </label> 
+        <br>
+        <br>
+        <label for = "select">Gender:</label>
+            <input type = "radio" name = female value = "Option1"> Female
+            <input type = "radio" name = Male value = "Option2">Male
+        <br>
+        <br>
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+        <br>    
+        <br>
+        <!--dropdown select-->
+        <label for = "skills">Skills:</label>
+        <select id="skills" name="skills">
+            <option value = "HTML">HTML</option>
+            <option value = "CSS">CSS</option>
+            <option value = "JavaScript">JavaScript</option>
+            <option value = "Python">Python</option>
+            <option value = "Java">Java</option>
+            <option value = "C++">C++</option>
+        </select>
+        <br>
+        <br>
+        <!--Text area-->
+        <fieldset>
+            <legend>Additional Information</legend>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+        <br>
+        <br>
+        <label for="file">Upload File:</label>  
+        <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf">
+        <br>    
+        <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <label for="file">Upload File:</label>  
+        <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf">
+        <br>    
+        <br>
+        </fieldset>
+
+        <input type = "submit" >
+        <input type = "reset" >
+
+        
+    </body>
+</html>

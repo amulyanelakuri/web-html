@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Regular Expressions</title>
+    </head>
+    <body>
+        <h2>Regular Expressions</h2>
+        <form>
+            <label for = phone>Phone Number:</label>
+            <input type = "text" id = "phone" pattern="^\d{3}-\d{3}-\d{4}$" title="Format: 123-456-7890" required>
+            <br><br>
+
+            <label for = username>Username:</label>
+            <input type = "text" id = "username" pattern="^[a-zA-Z0-9_]{5,15}$" title="5 to 15 alphanumeric characters or underscores" required>
+            <br><br>
+            <input type = "submit" value = "Submit">
+            <br><br>    
+        </form>
+    </body>
+</html>

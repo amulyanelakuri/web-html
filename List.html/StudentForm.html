@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <title>Student Form</title>
+</head>  
+        <body>
+        <h2>Student Registration Form</h2>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email here" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+
+            <label for="shortBio">Short Bio:</label>
+            <textarea id="shortBio" name="shortBio" rows="4" cols="50" placeholder="Tell us about yourself"></textarea>
+            <br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="gender" name="female" value="Option1">Female
+            <br>
+            <input type="radio" id="gender=" name="male" value = "Option2">Male
+            <br>
+            <input type="radio" id="gender" name="other" value="Option3">Other
+            <br>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Area of Interset</legend>
+            <label for="skills">Select your skills:</label>
+            <input type="checkbox" id="skills" name="HTML" value="HTML">HTML
+            <br>
+            <input type="checkbox" id="skills" name="CSS" value="CSS">CSS
+            <br>
+            <input type="checkbox" id="skills" name="JavaScript" value="JavaScript">JavaScript
+            <br>
+            </fieldset>    
+            <br><br>
+        <fieldset>
+            <legend>Programming Skill Level</legend>
+            <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="10">
+        <br>    
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="file">Upload File:</label>  
+        <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf">
+        <br>    
+        <br>
+        </fieldset>
+
+        </body>
+</html>
